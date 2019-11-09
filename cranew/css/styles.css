@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    box-shadow: 0.5px 0.5px 1px #000;
+    background-color:rgba(48, 51, 107,1);
+    opacity: 0.9;
+}
+
+.navbar .nav-item .nav-link{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.navbar .nav-item .nav-link:hover{
+    color: #fff;
+    border-bottom: 0.4px solid;
+    transition: 0.4s;
+    
+}
+
+.cranew-nav{
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-header{
+    position: relative;
+    background: url(../img/iman.jpg);
+    background-size: cover;
+
+}
+
+.background-overlay{
+    background: rgba(48, 51, 107,.7);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+}
+
+.background-port{
+    background: rgba(48, 51, 107,.7);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+.text-info{
+    font-size: 1.4em;
+}
+
+.cotizar {
+    background-image: url(/img/imagenmov2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.proyect {
+    background-image: url(/img/fondomov.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.icon{
+    display: inline-grid;
+    width:40px;
+    text-align: center;
+}
+
+.btn-color{
+    background-color: #330033;
+    opacity: 0.8;
+    color:white;
+}
+
+.btn-color:hover{
+    color:white;
+    background: rgba(51, 3, 48,.9);
+}
+
+
+.team, footer{
+    background: #330033;
+    opacity: 0.8;
+}
+
+.sectColor {
+    box-shadow: 0.5px 0.5px 1px #000;
+    background-color:rgba(48, 51, 107,1);
+    opacity: 0.9;
+}
+
+.bbox{
+    background-color: rgba(48, 51, 107,1);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+}
+.fa-check-circle{
+    color: #73F126;
+}
+@media (max-width: 768px){
+
+    .backimg{
+        display: none!important;
+    }
+
+    .titleHeader{
+        top:100px;
+    }
+    .card{
+        margin-top:10px;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .navbar .nav-item .nav-link:hover{
+        border-bottom:none;
+       
+    }
+}
